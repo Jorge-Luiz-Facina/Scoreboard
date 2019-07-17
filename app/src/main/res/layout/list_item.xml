@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp">
+
+        <TextView
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:id="@+id/textViewCollunmTeam1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="0\n0"/>
+
+        <TextView
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:id="@+id/textViewVersus"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:gravity="center"
+                android:layout_weight="0.4"
+                android:text="X\n\nVictories"/>
+        <TextView
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:id="@+id/textViewCollunmTeam2"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="0\n0"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:id="@+id/textViewTime"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:text="\n00:00:00"/>
+
+    </LinearLayout>
+
+</LinearLayout>
