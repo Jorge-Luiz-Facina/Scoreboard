@@ -124,6 +124,7 @@ class MainActivity : AppCompatActivity() {
         alertDialog.setNegativeButton("Cancel", { dialog, which ->
             scoreTeam.setText("11")
         })
+		alertDialog.setCancelable(false)
         alertDialog.show()
     }
 
