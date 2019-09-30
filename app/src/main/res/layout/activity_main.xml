@@ -131,136 +131,67 @@
 
     <Button
             android:text="-1"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
             android:background="@color/black"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:id="@+id/buttonTeam1Minus1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/buttonTeam1More12"
-            android:layout_marginStart="0dp"/>
-
-    <Button
-            android:text="+12"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
-            android:background="@color/black"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            app:layout_constraintStart_toStartOf="parent" android:id="@+id/buttonTeam1More12"
-            android:layout_marginBottom="0dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="0dp"/>
-
-    <Button
-            android:text="+9"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
-            android:background="@color/black"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            app:layout_constraintStart_toStartOf="parent" android:id="@+id/buttonTeam1More9"
-            android:layout_marginStart="0dp" android:layout_marginBottom="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam1More12"/>
-
-    <Button
-            android:text="+6"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
-            android:background="@color/black"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            app:layout_constraintStart_toStartOf="parent" android:id="@+id/buttonTeam1More6"
-            android:layout_marginStart="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam1More9"/>
+            android:layout_marginBottom="44dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
             android:text="+3"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
             android:background="@color/black"
             android:textColor="@color/white"
             android:textSize="22dp"
             app:layout_constraintStart_toStartOf="parent" android:id="@+id/buttonTeam1More3"
-            android:layout_marginStart="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam1More6"/>
+            android:layout_marginBottom="2dp" app:layout_constraintBottom_toTopOf="@+id/buttonTeam1Minus1"/>
 
     <Button
             android:text="+1"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
             android:background="@color/black"
             android:textColor="@color/white"
             android:textSize="22dp"
             app:layout_constraintStart_toStartOf="parent" android:id="@+id/buttonTeam1More1"
-            android:layout_marginStart="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam1More3"/>
+            app:layout_constraintBottom_toTopOf="@+id/buttonTeam1More3" android:layout_marginBottom="2dp"/>
 
     <Button
             android:text="-1"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
             android:background="@color/black"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:id="@+id/buttonTeam2Minus1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/buttonTeam2More12" android:layout_marginEnd="0dp"/>
-
-    <Button
-            android:text="+12"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
-            android:background="@color/black"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            android:id="@+id/buttonTeam2More12"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginEnd="0dp" app:layout_constraintEnd_toEndOf="parent"/>
-
-    <Button
-            android:text="+9"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
-            android:background="@color/black"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            android:id="@+id/buttonTeam2More9"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam2More12" android:layout_marginEnd="0dp"
-            app:layout_constraintEnd_toEndOf="parent"/>
-
-    <Button
-            android:text="+6"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
-            android:background="@color/black"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            android:id="@+id/buttonTeam2More6"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam2More9" android:layout_marginEnd="0dp"
+            android:layout_marginBottom="48dp" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
             android:text="+3"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
             android:background="@color/black"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:id="@+id/buttonTeam2More3"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam2More6" android:layout_marginEnd="0dp"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonTeam2Minus1"/>
 
     <Button
             android:text="+1"
-            android:layout_width="88dp"
-            android:layout_height="54dp"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
             android:background="@color/black"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:id="@+id/buttonTeam2More1"
-            app:layout_constraintBottom_toTopOf="@+id/buttonTeam2More3" android:layout_marginEnd="0dp"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintBottom_toTopOf="@+id/buttonTeam2More3"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="2dp"/>
 
     <ImageView
             android:layout_width="280px"

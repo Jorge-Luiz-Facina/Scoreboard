@@ -55,18 +55,6 @@ class MainActivity : AppCompatActivity() {
             setTextViewScoreTeam(3,  textViewScoreTeam1)
             addHistoric()
         }
-        buttonTeam1More6.setOnClickListener{
-            setTextViewScoreTeam(6,  textViewScoreTeam1)
-            addHistoric()
-        }
-        buttonTeam1More9.setOnClickListener{
-            setTextViewScoreTeam(9,  textViewScoreTeam1)
-            addHistoric()
-        }
-        buttonTeam1More12.setOnClickListener{
-            setTextViewScoreTeam(12,  textViewScoreTeam1)
-            addHistoric()
-        }
     }
 
     private fun  initializeButtonsOnActionTeam2(){
@@ -80,18 +68,6 @@ class MainActivity : AppCompatActivity() {
         }
         buttonTeam2More3.setOnClickListener{
             setTextViewScoreTeam(3,  textViewScoreTeam2)
-            addHistoric()
-        }
-        buttonTeam2More6.setOnClickListener{
-            setTextViewScoreTeam(6,  textViewScoreTeam2)
-            addHistoric()
-        }
-        buttonTeam2More9.setOnClickListener{
-            setTextViewScoreTeam(9,  textViewScoreTeam2)
-            addHistoric()
-        }
-        buttonTeam2More12.setOnClickListener{
-            setTextViewScoreTeam(12,  textViewScoreTeam2)
             addHistoric()
         }
     }
